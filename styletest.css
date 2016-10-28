@@ -1,0 +1,20 @@
+a:link{
+  text-decoration: none;
+  color: navy;
+}
+a:visited{
+  color: gray;
+}
+a:hover{
+  text-decoration: underline;
+  color: red;
+}
+a:active{
+  color: yellow;
+}
+blockquote::before{
+  content: '❝';
+}
+blockquote::after{
+  content: '❞';
+}
